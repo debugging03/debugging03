@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi 👋, I'm Aman
 
-<!--
-**debugging03/debugging03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 BCA Student  
+🚀 Learning Web Dev / Android / Tools  
+🔥 Interested in Automation & Mods  
 
-Here are some ideas to get you started:
+## 🛠️ Skills
+- HTML, CSS, JS
+- Git & GitHub
+- Basic Python
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📌 Projects
+- Anime Downloader GUI
+- Proxy Scripts
+- Chrome Extensions
+
+## 📫 Contact
+- Email: sinhaamanjeet@gmail.com
