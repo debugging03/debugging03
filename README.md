@@ -3,7 +3,7 @@
 💻 BCA Student  
 🚀 Learning Web Dev / Android / Tools  
 🔥 Interested in Automation & Mods  
-
+ 
 ## 🛠️ Skills
 - HTML, CSS, JS
 - Git & GitHub
