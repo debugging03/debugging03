@@ -10,7 +10,6 @@
 - Basic Python
 
 ## 📌 Projects
-- Anime Downloader GUI
 - Proxy Scripts
 - Chrome Extensions
 
