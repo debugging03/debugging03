@@ -24,18 +24,43 @@ Frontend developer from India. I build browser tools, web apps, and automation s
 
 ## Projects
 
-### cr-unblocker-chrome
-A Chrome extension that unblocks restricted content. Built with JavaScript using Chrome Extension Manifest V3.  
-→ [View Repo](https://github.com/debugging03/cr-unblocker-chrome)
-
-### pin-explorer
-A TypeScript tool for exploring and managing pins.  
-→ [View Repo](https://github.com/debugging03/pin-explorer)
-
-### FoodieAI *(collab)*
-A food discovery web app built with a team of 4 during a hackathon. Features personalized recommendations, dietary filters (Veg/Vegan/Jain), and animated dish cards with nutrition info.  
-Built with React, TypeScript, Firebase, and Tailwind CSS.  
-→ [Live App](https://rajmehta23.github.io/FoodieAI/) · [View Repo](https://github.com/rajmehta23/FoodieAI)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>cr-unblocker-chrome</h3>
+      <p>Chrome extension that unblocks restricted content. Uses Manifest V3 with a lightweight content script approach.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/Chrome_MV3-4285F4?style=flat&logo=googlechrome&logoColor=white" />
+      </p>
+      <a href="https://github.com/debugging03/cr-unblocker-chrome">→ View repo</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>pin-explorer</h3>
+      <p>A tool for exploring and managing pins. Built in TypeScript for type-safe, reliable data handling.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+      </p>
+      <a href="https://github.com/debugging03/pin-explorer">→ View repo</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>FoodieAI &nbsp;<sup><sub>collab</sub></sup></h3>
+      <p>Food discovery app built with a team of 4 at a hackathon. Personalized recommendations, dietary filters (Veg/Vegan/Jain), and animated dish cards with nutrition info.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
+      </p>
+      <a href="https://rajmehta23.github.io/FoodieAI/">→ Live app</a> &nbsp;·&nbsp; <a href="https://github.com/rajmehta23/FoodieAI">→ Repo</a>
+    </td>
+    <td width="50%" valign="top">
+      <!-- future project slot -->
+    </td>
+  </tr>
+</table>
 
 ---
 
