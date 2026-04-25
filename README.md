@@ -66,9 +66,9 @@ Frontend developer from India. I build browser tools, web apps, and automation s
 
 ## Currently working on
 
-- Android development (Kotlin)
-- More browser automation tools
-- Exploring web scraping with Python
+- Expanding my backend knowledge
+- More automation tools
+- Ai integrations into projects 
 
 ---
 
