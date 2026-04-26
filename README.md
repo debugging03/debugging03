@@ -1,6 +1,9 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&width=500&lines=Hi+there%2C+I'm+Amanjeet+%F0%9F%91%8B;Frontend+Dev+%7C+Chrome+Extensions;Building+tools+for+the+web;Open+to+freelance+%26+remote+work)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=debugging03&color=58a6ff&style=flat)
+![Commits](https://img.shields.io/badge/Commits-48-58A6FF?style=flat)
+![Repos](https://img.shields.io/badge/Repos-4-58A6FF?style=flat)
+![Status](https://img.shields.io/badge/Status-Open_to_work-brightgreen?style=flat)
 
 ---
 
@@ -77,14 +80,6 @@ Frontend developer from India. I build browser tools, web apps, and automation s
 - Expanding my backend knowledge
 - More automation tools
 - AI integrations into projects
-
----
-
-## Quick Stats
-
-![Commits](https://img.shields.io/badge/Commits-48-58A6FF?style=flat)
-![Repos](https://img.shields.io/badge/Repos-4-58A6FF?style=flat)
-![Status](https://img.shields.io/badge/Status-Open_to_work-brightgreen?style=flat)
 
 ---
 
