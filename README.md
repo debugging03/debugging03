@@ -27,6 +27,30 @@ Frontend developer from India. I build browser tools, web apps, and automation s
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>SyllaBuzz</h3>
+      <p>Your ultimate study companion. Interactive dashboard that organizes your entire syllabus by subject and unit. Features Hinglish notes, smart search, progress tracking, and multiple themes (Light/Dark/Reading mode).</p>
+      <p>
+        <img src="https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" />
+      </p>
+      <a href="https://debugging03.github.io/syllabuzz/">→ Live app</a> &nbsp;·&nbsp; <a href="https://github.com/debugging03/syllabuzz">→ Repo</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>FoodieAI &nbsp;<sup><sub>collab</sub></sup></h3>
+      <p>Food discovery app built with a team of 4 at a hackathon. Personalized recommendations, dietary filters (Veg/Vegan/Jain), and animated dish cards with nutrition info.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
+      </p>
+      <a href="https://rajmehta23.github.io/FoodieAI/">→ Live app</a> &nbsp;·&nbsp; <a href="https://github.com/rajmehta23/FoodieAI">→ Repo</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>cr-unblocker-chrome</h3>
       <p>Chrome extension that unblocks restricted content. Uses Manifest V3 with a lightweight content script approach.</p>
       <p>
@@ -44,22 +68,6 @@ Frontend developer from India. I build browser tools, web apps, and automation s
       <a href="https://github.com/debugging03/pin-explorer">→ View repo</a>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>FoodieAI &nbsp;<sup><sub>collab</sub></sup></h3>
-      <p>Food discovery app built with a team of 4 at a hackathon. Personalized recommendations, dietary filters (Veg/Vegan/Jain), and animated dish cards with nutrition info.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" />
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
-      </p>
-      <a href="https://rajmehta23.github.io/FoodieAI/">→ Live app</a> &nbsp;·&nbsp; <a href="https://github.com/rajmehta23/FoodieAI">→ Repo</a>
-    </td>
-    <td width="50%" valign="top">
-      <!-- future project slot -->
-    </td>
-  </tr>
 </table>
 
 ---
@@ -68,7 +76,7 @@ Frontend developer from India. I build browser tools, web apps, and automation s
 
 - Expanding my backend knowledge
 - More automation tools
-- Ai integrations into projects 
+- AI integrations into projects
 
 ---
 
