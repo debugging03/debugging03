@@ -80,20 +80,11 @@ Frontend developer from India. I build browser tools, web apps, and automation s
 
 ---
 
-## GitHub Stats
+## Quick Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=debugging03&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=debugging03&layout=compact&theme=tokyonight&hide_border=true" height="160" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=debugging03&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=debugging03&theme=tokyo-night&hide_border=true" />
-</p>
+![Commits](https://img.shields.io/badge/Commits-48-58A6FF?style=flat)
+![Repos](https://img.shields.io/badge/Repos-4-58A6FF?style=flat)
+![Status](https://img.shields.io/badge/Status-Open_to_work-brightgreen?style=flat)
 
 ---
 
