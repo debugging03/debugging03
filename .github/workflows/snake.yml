@@ -1,0 +1,80 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%23FF4500&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF4500&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
+      - name: rainbow gradient + smooth speed post-processing
+        run: |
+          python3 - << 'PYEOF'
+          import re, glob
+
+          RAINBOW_GRADIENT = (
+              '<linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="100%" y2="0%">'
+              '<stop offset="0%"   stop-color="#FF0000"/>'
+              '<stop offset="17%"  stop-color="#FF8800"/>'
+              '<stop offset="34%"  stop-color="#FFFF00"/>'
+              '<stop offset="51%"  stop-color="#00CC44"/>'
+              '<stop offset="68%"  stop-color="#0066FF"/>'
+              '<stop offset="85%"  stop-color="#8800FF"/>'
+              '<stop offset="100%" stop-color="#FF0000"/>'
+              '</linearGradient>'
+          )
+
+          SPEED_MULTIPLIER = 1.8
+
+          for path in glob.glob("dist/*.svg"):
+              with open(path, "r", encoding="utf-8") as f:
+                  svg = f.read()
+
+              # --- RAINBOW: inject gradient definition ---
+              if "<defs>" in svg:
+                  svg = svg.replace("<defs>", f"<defs>{RAINBOW_GRADIENT}", 1)
+              else:
+                  svg = re.sub(r"(<svg[^>]*>)", rf"\1<defs>{RAINBOW_GRADIENT}</defs>", svg, 1)
+
+              # --- RAINBOW: replace CSS variable --cs with gradient url ---
+              # The snake color is defined as CSS var --cs in the <style> block
+              svg = re.sub(r'--cs:#[0-9A-Fa-f]{6}', '--cs:url(#rainbowGrad)', svg)
+
+              # --- SPEED: slow down CSS animation durations (ms values) ---
+              def slow_ms(m):
+                  val = int(m.group(1))
+                  return f'{int(val * SPEED_MULTIPLIER)}ms'
+              svg = re.sub(r'(\d+)ms', slow_ms, svg)
+
+              with open(path, "w", encoding="utf-8") as f:
+                  f.write(svg)
+
+              print(f"Processed: {path}")
+          PYEOF
+
+      - name: push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

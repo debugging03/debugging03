@@ -1,0 +1,37 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    # Runs daily at 2:30 PM IST (09:00 UTC)
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run update_stats.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_stats.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "135865055+debugging03@users.noreply.github.com"
+          git config --local user.name "Amanjeet Sinha"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update README" && git push)
