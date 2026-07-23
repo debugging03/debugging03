@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&width=580&lines=Hi+there%2C+I'm+Amanjeet+Sinha;Developer+not+restricted+to+platforms;Building+web+tools+%26+compiled+software;Driven+by+problem+solving+without+boundaries)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=debugging03&color=58a6ff&style=flat)
-![Commits](https://img.shields.io/badge/Commits-228%2B-58A6FF?style=flat)
+![Commits](https://img.shields.io/badge/Commits-229%2B-58A6FF?style=flat)
 ![Public Repos](https://img.shields.io/badge/Public_Repos-9-58A6FF?style=flat)
 ![Status](https://img.shields.io/badge/Status-Open_to_work-brightgreen?style=flat)
 [![My Portfolio](https://img.shields.io/badge/My_Portfolio-58A6FF?style=flat)](https://debugging03.github.io/Portfolio/)
